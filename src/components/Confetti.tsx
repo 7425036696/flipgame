@@ -101,15 +101,3 @@ export const Confetti: React.FC = () => {
   );
 };
 
-interface Particle {
-  x: number;
-  y: number;
-  dx: number;
-  dy: number;
-  size: number;
-  color: string;
-  rotation: number;
-  rotationSpeed: number;
-  update: () => void;
-  draw: () => void;
-}
